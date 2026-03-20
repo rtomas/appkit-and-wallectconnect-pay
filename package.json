@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^3.0.1",
     "@reown/appkit": "1.8.19",
     "@reown/appkit-adapter-wagmi": "1.8.19",
     "@reown/appkit-wallet-button": "^1.8.19",
@@ -18,12 +17,16 @@
     "jsqr": "^1.4.0",
     "next": "15.3.9",
     "postcss": "^8.5.8",
-    "react": "19.2.1",
-    "react-dom": "19.2.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "tailwindcss": "^4.2.2",
     "typescript": "^5.9.3",
     "viem": "^2.47.0",
     "wagmi": "^2.12.31"
+  },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
   },
   "devDependencies": {
     "@types/node": "^22",
